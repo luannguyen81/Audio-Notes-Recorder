@@ -22,6 +22,7 @@
 		B3E0776F185B574100DE2B42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E0774E185B574100DE2B42 /* UIKit.framework */; };
 		B3E07777185B574100DE2B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3E07775185B574100DE2B42 /* InfoPlist.strings */; };
 		B3E07779185B574100DE2B42 /* Audio_RecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E07778185B574100DE2B42 /* Audio_RecordingTests.m */; };
+		B3E0778E185B586400DE2B42 /* LNAudioMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E0778D185B586400DE2B42 /* LNAudioMeter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,9 @@
 		B3E07774185B574100DE2B42 /* Audio RecordingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Audio RecordingTests-Info.plist"; sourceTree = "<group>"; };
 		B3E07776185B574100DE2B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3E07778185B574100DE2B42 /* Audio_RecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audio_RecordingTests.m; sourceTree = "<group>"; };
+		B3E0778C185B586400DE2B42 /* LNAudioMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAudioMeter.h; sourceTree = "<group>"; };
+		B3E0778D185B586400DE2B42 /* LNAudioMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAudioMeter.m; sourceTree = "<group>"; };
+		B3E0778F185B597600DE2B42 /* LNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,9 @@
 				B3E07763185B574100DE2B42 /* LNViewController.m */,
 				B3E07765185B574100DE2B42 /* Images.xcassets */,
 				B3E07751185B574100DE2B42 /* Supporting Files */,
+				B3E0778C185B586400DE2B42 /* LNAudioMeter.h */,
+				B3E0778D185B586400DE2B42 /* LNAudioMeter.m */,
+				B3E0778F185B597600DE2B42 /* LNConstants.h */,
 			);
 			path = "Audio Recording";
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 			files = (
 				B3E0775B185B574100DE2B42 /* LNAppDelegate.m in Sources */,
 				B3E07757185B574100DE2B42 /* main.m in Sources */,
+				B3E0778E185B586400DE2B42 /* LNAudioMeter.m in Sources */,
 				B3E07764185B574100DE2B42 /* LNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
